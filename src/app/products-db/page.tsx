@@ -1,11 +1,11 @@
-import { getProduct } from "../prisma-db";
+// import { getProduct } from "../prisma-db";
 
-type Product = {
-  id: number;
-  title: string;
-  price: number;
-  description: string | null;
-};
+// type Product = {
+//   id: number;
+//   title: string;
+//   price: number;
+//   description: string | null;
+// };
 
 export default async function ProductsDBPage() {
   // const products: Product[] = await getProduct()
